@@ -3,7 +3,7 @@ import dotenv
 
 
 class Config:
-    MODE = 'debug'
+    MODE = "debug"
     BOT_TOKEN = '853007726:AAG1ws8cmSnzv-de5LQoaw9h8UDP_W5CcDU'
     UTL = 'HEROKU_URL'
 
