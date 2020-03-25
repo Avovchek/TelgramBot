@@ -3,9 +3,9 @@ import dotenv
 
 
 class Config:
-    MODE = os.getenv('debug')
-    BOT_TOKEN = os.getenv('853007726:AAG1ws8cmSnzv-de5LQoaw9h8UDP_W5CcDU')
-    UTL = os.getenv('HEROKU_URL')
+    MODE = 'debug'
+    BOT_TOKEN = '853007726:AAG1ws8cmSnzv-de5LQoaw9h8UDP_W5CcDU'
+    UTL = 'HEROKU_URL'
 
 def autosending_text(bot, message):
     first_name = bot.get_chat(message.chat.id).first_name
