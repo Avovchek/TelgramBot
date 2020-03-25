@@ -3,7 +3,7 @@ import dotenv
 
 
 class Config:
-    MODE = os.getenv('MODE')
+    MODE = os.getenv('debug')
     BOT_TOKEN = os.getenv('853007726:AAG1ws8cmSnzv-de5LQoaw9h8UDP_W5CcDU')
     UTL = os.getenv('HEROKU_URL')
 
